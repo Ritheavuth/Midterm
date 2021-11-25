@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;500;800&display=swap');
+
+* {
+    font-family: Poppins;
+}
+
+embed {
+    display: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #fff;
+    text-align: center;
+}
+
+header {
+    margin: 0 auto;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+header h1 {
+    color: crimson;
+    font-size: 5vh;
+    text-align: center;
+}
+
+.hero {
+    width: 70%;
+    width: auto;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+}
+
+.hero .carousel {
+    width: 100%;
+}
+
+.navigation {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    background-color: crimson;
+}
+
+.navigation ul {
+    margin-top: 2vh;
+    width: 70%;
+    height: auto;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navigation li {
+    margin: 0.5vw;
+    display: flex;
+    margin: 0 auto;
+}
+
+.navigation li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    transition: 0.5s;
+    padding: 10px 15px;
+}
+
+.navigation li a:hover {
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.content {
+    margin: 0 auto;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.content p {
+    width: 100%;
+    text-align:justify;
+}
+
+.content video{
+    width: 100%;
+}
+
+.vc {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.company {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;;
+}
+
+.company .card {
+    margin: 0px 20px;
+}
+
+.company .card .card-body p {
+    text-align: justify;
+}
+
+.department {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.department .accordion {
+    width: 100;
+}
+
+.department .accordion .accordion-body {
+    text-align: justify;
+}
+
+footer {
+    width: auto;
+    height: auto;  
+    background-color: crimson;
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+    border: 2px solid #111;
+    margin: 20px 0;
+}
+
+footer .container {
+    display: flex;
+    flex-direction: column;
+}
+
+footer .contact {
+    width: 90%;
+    margin: 2%;
+}
+
+footer .address {
+    margin: 2%;
+    width: 90%;
+    text-align: justify;
+}
+
+footer h5, .phone{
+    text-align: center;
+}
+
+footer .maps {
+    width: 50%;
+    height: auto;
+    margin: 1%;
+}
+
+footer .maps iframe {
+    border: 1px solid #fff;
+}
+
+.back-to-top {
+    font-size: 18px;
+    padding: 10px;
+    text-decoration: none;
+    color: #111;
+}
+
+.back-to-top:hover {
+    color: red;
+}
